@@ -23,7 +23,7 @@ terraform destroy
 ```
 
 ## Running CDK Examples
-These examples were developed using CDK `2.17.0`. Navigate to the desired `/cdk` folder and run:
+These examples were developed using CDK `2.17.0`+. Navigate to the desired `/cdk` folder and run:
 ```shell
 # install dependencies
 npm i
@@ -36,3 +36,5 @@ cdk deploy
 # clean up
 cdk destroy
 ```
+
+The `/cdk` folders contain many more files than the `/terraform` folders. However, the infrastructure is all defined in `/lib/cdk-stack.ts` file.
